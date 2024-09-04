@@ -1,9 +1,39 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <img src="images/logo.png">
+        <div class="wrapper">
+            <header>
+                <img src="images/logo.png" class="oldagram-logo" alt="logo saying oldagram">
+                <img src="images/user-avatar.png" class="user-avatar" alt="portrait of Per">
+            </header>
+            <hr>
+            <main>
+                <div class="user-info">
+                    <img src="images/avatar-vangogh.jpg" class="user-avatar" alt="portrait of Van Gogh">
+                    <div class="user-info__paragraphs">
+                        <p class="name">Vincent van Gogh</p>
+                        <p class="location">Zudert, Netherlands</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <img src="images/post-vangogh.jpg" class="post-image" alt="painting of Van Gogh">
+                    <div class="post-icons">
+                        <img src="images/icon-heart.png" class="heart-icon" alt="heart icon">
+                        <img src="images/icon-comment.png" class="comment-icon" alt="comment icon">
+                        <img src="images/icon-dm.png" class="share-icon" alt="share icon">
+                    </div>
+                    <p class="likes-counter">21,492</p>
+                    <div class="user-caption">
+                        <p class="username">vincey1853</p>
+                        <p class="user-caption__text">just took a few mushrooms lol</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+
         <script src="index.js"></script>
     </body>
 </html>
