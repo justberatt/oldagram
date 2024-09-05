@@ -8,8 +8,8 @@ html, body {
 }
 
 .wrapper {
-    border: 1px solid rgba(189, 195, 199, .5);
-    border-radius: 5px;
+    border: 4.6px solid rgba(12, 12, 12, .8);
+    border-radius: 15px;
     width: 375px;
     padding-bottom: 15px;
     margin: 50% 0;
@@ -83,6 +83,12 @@ li {
 .comment-icon,
 .share-icon {
     width: 30px;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:active {
+    transform: scale(1.1, 1.1);
 }
 
 .likes-counter {
